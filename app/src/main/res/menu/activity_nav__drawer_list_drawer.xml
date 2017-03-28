@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lehrer"
+            android:icon="@drawable/ic_menu_lehrer"
+            android:title="Lehrer" />
+
+        <item
+            android:id="@+id/nav_lehrer_add"
+            android:icon="@drawable/ic_menu_weiterleitung"
+            android:title="Lehrer hinzufügen"
+
+            />
+
+        <item
+            android:id="@+id/nav_schueler"
+            android:icon="@drawable/ic_menu_schueler"
+            android:title="Schüler " />
+
+        <item
+            android:id="@+id/nav_anfragen"
+            android:icon="@drawable/ic_menu_anfragen"
+            android:title="Anfragen" />
+
+        <item
+            android:id="@+id/nav_unanfragen"
+            android:icon="@drawable/ic_menu_weiterleitung"
+            android:title="Ungelesene Anfragen" />
+
+        <item
+            android:id="@+id/nav_bestanfragen"
+            android:icon="@drawable/ic_menu_weiterleitung"
+            android:title="Bestätigte Anfragen" />
+
+        <item
+            android:id="@+id/nav_abganfragen"
+            android:icon="@drawable/ic_menu_weiterleitung"
+            android:title="Abgelehnte Anfragen" />
+
+
+        <item
+            android:id="@+id/nav_nachilfetermine"
+            android:icon="@drawable/ic_menu_kalender"
+            android:title="Nachhilfetermine" />
+        <item
+            android:id="@+id/nav_abrechungen"
+            android:icon="@drawable/ic_menu_abrechnungen"
+            android:title="Abrechnungen" />
+
+
+
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="Profil" />
+
+
+        <item
+            android:id="@+id/nav_statistik"
+            android:icon="@drawable/ic_menu_statistik"
+            android:title="Statistik" />
+
+        <item
+            android:id="@+id/nav_koordinaten"
+            android:icon="@drawable/ic_menu_kstempel"
+            android:title="Koordinatenstempel" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Logout" />
+    </group>
+</menu>
